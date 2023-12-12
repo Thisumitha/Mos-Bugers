@@ -1,0 +1,50 @@
+.admin{
+    width: 100px;
+     height: 35px;
+
+}
+.left-margin-30{
+    margin-left: 30px;
+}
+.left-margin-80{
+    margin-left: 80px;
+}
+.navbar{
+   background-color: #D9D9D9;
+}
+.right-margin-30{
+    margin-right: 30px;
+}
+.buttom-margin-30{
+    margin-bottom: 30px;
+}
+.item-btn{
+    border-radius: 12px;
+background: #B42F04;
+font-weight: bolder;
+width: 180px;
+margin-top: 10px;
+}
+.fa-trash{
+    width: 30px;
+    height: 30px;
+}
+@media(max-width:480px){
+    #cart{
+        display: none;
+    }
+}
+.itemline{
+  
+   
+    display: flex;
+    overflow-x: auto;
+ 
+}
+.itemline .li{
+    
+    text-align: center;
+}
+.itemline::-webkit-scrollbar{
+    width: 0;
+}

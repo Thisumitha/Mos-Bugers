@@ -51,22 +51,22 @@ export  const fries = [
   
   
   export const chicken = [
-    { itemCode: "B1038",Image:"../../Assets/chicken/Fried Chicken (Small).jpg", itemName: "Fried Chicken (Small)", price: 1200.00, discount: 0 },
-    { itemCode: "B1039",Image:"../../Assets/chicken/Fried Chicken (Small).jpg" ,itemName: "Fried Chicken (Regular)", price: 2300.00, discount: 10 },
-    { itemCode: "B1040",Image:"../../Assets/chicken/Fried Chicken (Small).jpg" ,itemName: "Fried Chicken (Large)", price: 3100.00, discount: 5 },
-    { itemCode: "B1041",Image:"../../Assets/chicken/Fried Chicken (Small).jpg" ,itemName: "Hot Wings (Large)", price: 2400.00, discount: 0 },
-    { itemCode: "B1042",Image:"../../Assets/chicken/Fried Chicken (Small).jpg" ,itemName: "Devilled Chicken (Large)", price: 900.00 , discount: 0},
-    { itemCode: "B1043",Image:"../../Assets/chicken/Fried Chicken (Small).jpg", itemName: "BBQ Chicken (Regular)", price: 2100.00, discount: 0 },
+    { itemCode: "B1038",Image:"../Assets/chicken/Fried Chicken (Small).jpg", itemName: "Fried Chicken (Small)", price: 1200.00, discount: 0 },
+    { itemCode: "B1039",Image:"../Assets/chicken/Fried Chicken (Small).jpg" ,itemName: "Fried Chicken (Regular)", price: 2300.00, discount: 10 },
+    { itemCode: "B1040",Image:"../Assets/chicken/Fried Chicken (Small).jpg" ,itemName: "Fried Chicken (Large)", price: 3100.00, discount: 5 },
+    { itemCode: "B1041",Image:"../Assets/chicken/Fried Chicken (Small).jpg" ,itemName: "Hot Wings (Large)", price: 2400.00, discount: 0 },
+    { itemCode: "B1042",Image:"../Assets/chicken/Fried Chicken (Small).jpg" ,itemName: "Devilled Chicken (Large)", price: 900.00 , discount: 0},
+    { itemCode: "B1043",Image:"../Assets/chicken/Fried Chicken (Small).jpg", itemName: "BBQ Chicken (Regular)", price: 2100.00, discount: 0 },
   ];
   
   
   
 
  export const beverages = [
-    { itemCode: "B1044",Image:"../../Assets/Bevrages/Coca-Cola (330ml).jpeg", itemName: "Pepsi (330ml)", price: 990.00, discount: 5 },
-    { itemCode: "B1045",Image:"../../Assets/Bevrages/Coca-Cola (330ml).jpeg", itemName: "Coca-Cola (330ml)",price: 1230.00},
-    { itemCode: "B1046",Image:"../../Assets/Bevrages/Coca-Cola (330ml).jpeg", itemName: "Sprite (330ml)", price: 1500.00, discount: 3 },
-    { itemCode: "B1047", Image:"../../Assets/Bevrages/Coca-Cola (330ml).jpeg",itemName: "Mirinda (330ml)", price: 850.00, discount: 7 },
+    { itemCode: "B1044",Image:"../Assets/Bevrages/Coca-Cola (330ml).jpeg", itemName: "Pepsi (330ml)", price: 990.00, discount: 5 },
+    { itemCode: "B1045",Image:"../Assets/Bevrages/Coca-Cola (330ml).jpeg", itemName: "Coca-Cola (330ml)",price: 1230.00},
+    { itemCode: "B1046",Image:"../Assets/Bevrages/Coca-Cola (330ml).jpeg", itemName: "Sprite (330ml)", price: 1500.00, discount: 3 },
+    { itemCode: "B1047", Image:"../Assets/Bevrages/Coca-Cola (330ml).jpeg",itemName: "Mirinda (330ml)", price: 850.00, discount: 7 },
   ];
   
   

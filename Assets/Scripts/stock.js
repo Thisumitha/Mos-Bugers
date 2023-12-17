@@ -17,36 +17,36 @@ export let burgers = [
   
 
 export  const submarines = [
-    { subCode: "B1016",Image:"/../../Assets/Submarine/Cheese Submarine.jpeg", subName: "Crispy Chicken Submarine (Large)", price: 2000.00, discount: 0 },
-    { subCode: "B1017",Image:"../../Assets/Submarine/Cheese Submarine.jpeg", subName: "Crispy Chicken Submarine (Regular)", price: 1500.00, discount: 0 },
-    { subCode: "B1018",Image:"../../Assets/Submarine/Cheese Submarine.jpeg", subName: "Chicken Submarine (Large)", price: 1800.00, discount:3 },
-    { subCode: "B1019",Image:"../../Assets/Submarine/Cheese Submarine.jpeg", subName: "Chicken Submarine (Regular)", price: 1400.00, discount: 0 },
-    { subCode: "B1020",Image:"../../Assets/Submarine/Cheese Submarine.jpeg", subName: "Grinder Submarine", price: 2300.00 , discount: 0},
-    { subCode: "B1021",Image:"../../Assets/Submarine/Cheese Submarine.jpeg", subName: "Cheese Submarine", price: 2200.00 , discount: 0 },
-    { subCode: "B1022",Image:"../../Assets/Submarine/Cheese Submarine.jpeg", subName: "Double Cheese n Chicken Submarine", price: 1900.00, discount: 16 },
-    { subCode: "B1023",Image:"../../Assets/Submarine/Cheese Submarine.jpeg", subName: "Special Horgie Submarine", price: 2800.00 , discount: 0},
-    { subCode: "B1024",Image:"../../Assets/Submarine/Cheese Submarine.jpeg", subName: "MOS Special Submarine", price: 3000.00 , discount: 0},
+    { subCode: "B1016",Image:"../Assets/Submarine/Cheese Submarine.jpeg", subName: "Crispy Chicken Submarine (Large)", price: 2000.00, discount: 0 },
+    { subCode: "B1017",Image:"../Assets/Submarine/Cheese Submarine.jpeg", subName: "Crispy Chicken Submarine (Regular)", price: 1500.00, discount: 0 },
+    { subCode: "B1018",Image:"../Assets/Submarine/Cheese Submarine.jpeg", subName: "Chicken Submarine (Large)", price: 1800.00, discount:3 },
+    { subCode: "B1019",Image:"../Assets/Submarine/Cheese Submarine.jpeg", subName: "Chicken Submarine (Regular)", price: 1400.00, discount: 0 },
+    { subCode: "B1020",Image:"../Assets/Submarine/Cheese Submarine.jpeg", subName: "Grinder Submarine", price: 2300.00 , discount: 0},
+    { subCode: "B1021",Image:"../Assets/Submarine/Cheese Submarine.jpeg", subName: "Cheese Submarine", price: 2200.00 , discount: 0 },
+    { subCode: "B1022",Image:"../Assets/Submarine/Cheese Submarine.jpeg", subName: "Double Cheese n Chicken Submarine", price: 1900.00, discount: 16 },
+    { subCode: "B1023",Image:"../Assets/Submarine/Cheese Submarine.jpeg", subName: "Special Horgie Submarine", price: 2800.00 , discount: 0},
+    { subCode: "B1024",Image:"../Assets/Submarine/Cheese Submarine.jpeg", subName: "MOS Special Submarine", price: 3000.00 , discount: 0},
   ];
   
   
 
 export  const fries = [
-    { itemCode: "B1025",Image:"../../Assets/fries/French Fries (Large).jpeg", itemName: "Steak Fries (Large)", price: 1200.00 , discount: 0},
-    { itemCode: "B1026",Image:"../../Assets/fries/French Fries (Large).jpeg", itemName: "Steak Fries (Medium)", price: 600.00 , discount: 0},
-    { itemCode: "B1027",Image:"../../Assets/fries/French Fries (Large).jpeg", itemName: "French Fries (Large)", price: 800.00 , discount: 0},
-    { itemCode: "B1028",Image:"../../Assets/fries/French Fries (Large).jpeg", itemName: "French Fries (Medium)", price: 650.00 , discount: 0},
-    { itemCode: "B1029",Image:"../../Assets/fries/French Fries (Large).jpeg", itemName: "French Fries (Small)", price: 450.00, discount: 0 },
-    { itemCode: "B1030",Image:"../../Assets/fries/French Fries (Large).jpeg", itemName: "Sweet Potato Fries (Large)", price: 600.00 , discount: 0}
+    { itemCode: "B1025",Image:"../Assets/fries/French Fries (Large).jpeg", itemName: "Steak Fries (Large)", price: 1200.00 , discount: 0},
+    { itemCode: "B1026",Image:"../Assets/fries/French Fries (Large).jpeg", itemName: "Steak Fries (Medium)", price: 600.00 , discount: 0},
+    { itemCode: "B1027",Image:"../Assets/fries/French Fries (Large).jpeg", itemName: "French Fries (Large)", price: 800.00 , discount: 0},
+    { itemCode: "B1028",Image:"../Assets/fries/French Fries (Large).jpeg", itemName: "French Fries (Medium)", price: 650.00 , discount: 0},
+    { itemCode: "B1029",Image:"../Assets/fries/French Fries (Large).jpeg", itemName: "French Fries (Small)", price: 450.00, discount: 0 },
+    { itemCode: "B1030",Image:"../Assets/fries/French Fries (Large).jpeg", itemName: "Sweet Potato Fries (Large)", price: 600.00 , discount: 0}
   ];  
  
   export const pasta = [
-    { itemCode: "B1031",Image:"../../Assets/pasta/Lemon Butter Pasta.jpg", itemName: "Chicken n Cheese Pasta", price: 1600.00, discount:15 },
-    { itemCode: "B1032",Image:"../../Assets/pasta/Lemon Butter Pasta.jpg", itemName: "Chicken Penne Pasta", price: 1700.00, discount: 0 },
-    { itemCode: "B1033",Image:"../../Assets/pasta/Lemon Butter Pasta.jpg", itemName: "Ground Turkey Pasta Bake", price: 2900.00, discount:10 },
-    { itemCode: "B1034",Image:"../../Assets/pasta/Lemon Butter Pasta.jpg", itemName: "Creamy Shrimp Pasta", price: 2000.00, discount: 0 },
-    { itemCode: "B1035",Image:"../../Assets/pasta/Lemon Butter Pasta.jpg", itemName: "Lemon Butter Pasta", price: 1950.00, discount: 0 },
-    { itemCode: "B1036",Image:"../../Assets/pasta/Lemon Butter Pasta.jpg", itemName: "Tagliatelle Pasta", price: 2400.00, discount:1 },
-    { itemCode: "B1037",Image:"../../Assets/pasta/Lemon Butter Pasta.jpg", itemName: "Baked Ravioli", price: 2000.00, discount:1 },
+    { itemCode: "B1031",Image:"../Assets/pasta/Lemon Butter Pasta.jpg", itemName: "Chicken n Cheese Pasta", price: 1600.00, discount:15 },
+    { itemCode: "B1032",Image:"../Assets/pasta/Lemon Butter Pasta.jpg", itemName: "Chicken Penne Pasta", price: 1700.00, discount: 0 },
+    { itemCode: "B1033",Image:"../Assets/pasta/Lemon Butter Pasta.jpg", itemName: "Ground Turkey Pasta Bake", price: 2900.00, discount:10 },
+    { itemCode: "B1034",Image:"../Assets/pasta/Lemon Butter Pasta.jpg", itemName: "Creamy Shrimp Pasta", price: 2000.00, discount: 0 },
+    { itemCode: "B1035",Image:"../Assets/pasta/Lemon Butter Pasta.jpg", itemName: "Lemon Butter Pasta", price: 1950.00, discount: 0 },
+    { itemCode: "B1036",Image:"../Assets/pasta/Lemon Butter Pasta.jpg", itemName: "Tagliatelle Pasta", price: 2400.00, discount:1 },
+    { itemCode: "B1037",Image:"../Assets/pasta/Lemon Butter Pasta.jpg", itemName: "Baked Ravioli", price: 2000.00, discount:1 },
   ];
   
   

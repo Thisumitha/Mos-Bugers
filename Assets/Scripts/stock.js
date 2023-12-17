@@ -17,7 +17,7 @@ export let burgers = [
   
 
 export  const submarines = [
-    { subCode: "B1016",Image:"./../Assets/Submarine/Cheese Submarine.jpeg", subName: "Crispy Chicken Submarine (Large)", price: 2000.00, discount: 0 },
+    { subCode: "B1016",Image:"/../../Assets/Submarine/Cheese Submarine.jpeg", subName: "Crispy Chicken Submarine (Large)", price: 2000.00, discount: 0 },
     { subCode: "B1017",Image:"../../Assets/Submarine/Cheese Submarine.jpeg", subName: "Crispy Chicken Submarine (Regular)", price: 1500.00, discount: 0 },
     { subCode: "B1018",Image:"../../Assets/Submarine/Cheese Submarine.jpeg", subName: "Chicken Submarine (Large)", price: 1800.00, discount:3 },
     { subCode: "B1019",Image:"../../Assets/Submarine/Cheese Submarine.jpeg", subName: "Chicken Submarine (Regular)", price: 1400.00, discount: 0 },

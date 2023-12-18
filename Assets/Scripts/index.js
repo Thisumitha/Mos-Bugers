@@ -1,4 +1,6 @@
+//import {addCartToMemory,loaddata,cart,addToMyArray} from 'cart.js'
  import {burgers} from './stock.js';
+
 
 let listCartHTML  = document.querySelector('.listCart');
 let list=document.querySelector('.items');
@@ -7,7 +9,7 @@ let getbtn=document.querySelector('.buy')
 let iconCartSpan = document.querySelector('.icon-cart span');
 
 let listCards =[];
-let cart =[];
+//let cart =[];
 
 function initApp(){
     burgers.forEach((value,key)=>{
@@ -31,13 +33,7 @@ function initApp(){
 }
 initApp();
 
- const  loaddata = ()=>{
-     // get data cart from memory
-     if(localStorage.getItem('cart')){
-        cart = JSON.parse(localStorage.getItem('cart'));
-        addCartToHTML();
-    }
-}
+
 
 
 //-------------cart------------------------------------
@@ -146,8 +142,5 @@ const changeQuantityCart = (product_id, type) => {
     addCartToHTML();
     addCartToMemory();
    
-}
-const addCartToMemory = () => {
-    localStorage.setItem('cart', JSON.stringify(cart));
 }
 

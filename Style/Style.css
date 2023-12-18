@@ -69,8 +69,9 @@ margin-top: 10px;
     margin-top: 30px;
     width: 200px;
     height: 200;
-    margin-right: 10px;
-
+    margin-right: 20px;
+    transition: all 0.2s ease;
+    cursor: pointer;
 }
 .listProduct{
     display: grid;
@@ -80,4 +81,35 @@ margin-top: 10px;
 .items{
     grid-row:auto;
     
+    
 }
+.item:hover{
+
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1);
+}
+.listCart .quantity span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #585757;
+    border-radius: 50%;
+    color: #fafafa;
+    cursor: pointer;
+}
+.listCart .quantity span:nth-child(2){
+    background-color: transparent;
+    color: #000000;
+    cursor: auto;
+}
+
+
+
+
+
+
+
+
+
+
+

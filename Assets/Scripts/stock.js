@@ -17,15 +17,15 @@ export let burgers = [
   
 
 export  const submarines = [
-    { subCode: "B1016",Image:"../Assets/Submarine/Cheese Submarine.jpeg", subName: "Crispy Chicken Submarine (Large)", price: 2000.00, discount: 0 },
-    { subCode: "B1017",Image:"../Assets/Submarine/Cheese Submarine.jpeg", subName: "Crispy Chicken Submarine (Regular)", price: 1500.00, discount: 0 },
-    { subCode: "B1018",Image:"../Assets/Submarine/Cheese Submarine.jpeg", subName: "Chicken Submarine (Large)", price: 1800.00, discount:3 },
-    { subCode: "B1019",Image:"../Assets/Submarine/Cheese Submarine.jpeg", subName: "Chicken Submarine (Regular)", price: 1400.00, discount: 0 },
-    { subCode: "B1020",Image:"../Assets/Submarine/Cheese Submarine.jpeg", subName: "Grinder Submarine", price: 2300.00 , discount: 0},
-    { subCode: "B1021",Image:"../Assets/Submarine/Cheese Submarine.jpeg", subName: "Cheese Submarine", price: 2200.00 , discount: 0 },
-    { subCode: "B1022",Image:"../Assets/Submarine/Cheese Submarine.jpeg", subName: "Double Cheese n Chicken Submarine", price: 1900.00, discount: 16 },
-    { subCode: "B1023",Image:"../Assets/Submarine/Cheese Submarine.jpeg", subName: "Special Horgie Submarine", price: 2800.00 , discount: 0},
-    { subCode: "B1024",Image:"../Assets/Submarine/Cheese Submarine.jpeg", subName: "MOS Special Submarine", price: 3000.00 , discount: 0},
+    { itemCode: "B1016",Image:"../Assets/Submarine/Cheese Submarine.jpeg", itemName: "Crispy Chicken Submarine (Large)", price: 2000.00, discount: 0 },
+    { itemCode: "B1017",Image:"../Assets/Submarine/Cheese Submarine.jpeg", itemName: "Crispy Chicken Submarine (Regular)", price: 1500.00, discount: 0 },
+    { itemCode: "B1018",Image:"../Assets/Submarine/Cheese Submarine.jpeg", itemName: "Chicken Submarine (Large)", price: 1800.00, discount:3 },
+    { itemCode: "B1019",Image:"../Assets/Submarine/Cheese Submarine.jpeg", itemName: "Chicken Submarine (Regular)", price: 1400.00, discount: 0 },
+    { itemCode: "B1020",Image:"../Assets/Submarine/Cheese Submarine.jpeg", itemName: "Grinder Submarine", price: 2300.00 , discount: 0},
+    { itemCode: "B1021",Image:"../Assets/Submarine/Cheese Submarine.jpeg", itemName: "Cheese Submarine", price: 2200.00 , discount: 0 },
+    { itemCode: "B1022",Image:"../Assets/Submarine/Cheese Submarine.jpeg", itemName: "Double Cheese n Chicken Submarine", price: 1900.00, discount: 16 },
+    { itemCode: "B1023",Image:"../Assets/Submarine/Cheese Submarine.jpeg", itemName: "Special Horgie Submarine", price: 2800.00 , discount: 0},
+    { itemCode: "B1024",Image:"../Assets/Submarine/Cheese Submarine.jpeg", itemName: "MOS Special Submarine", price: 3000.00 , discount: 0},
   ];
   
   

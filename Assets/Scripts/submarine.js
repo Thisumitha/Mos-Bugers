@@ -1,4 +1,4 @@
-import {submarines} from './stock.js';
+import {submarines,allitems} from './stock.js';
 
 let listCartHTML  = document.querySelector('.listCart');
 let list=document.querySelector('.items');
@@ -31,13 +31,7 @@ function initApp(){
 }
 initApp();
 
- const  loaddata = ()=>{
-     // get data cart from memory
-     if(localStorage.getItem('cart')){
-        cart = JSON.parse(localStorage.getItem('cart'));
-        addCartToHTML();
-    }
-}
+
 
 
 //-------------cart------------------------------------
@@ -76,8 +70,8 @@ const addCartToHTML = () => {
             totalQuantity = totalQuantity +  item.quantity;
             let newItem = document.createElement('div');   
             newItem.dataset.id = item.product_id;
-            let positionProduct = submarines.findIndex((value) => value.itemCode == item.product_id);
-            let info = submarines[positionProduct];
+            let positionProduct = allitems.findIndex((value) => value.itemCode == item.product_id);
+            let info = allitems[positionProduct];
             
             newItem.innerHTML = `
             <div class="card rounded-3  ">
@@ -147,7 +141,16 @@ const changeQuantityCart = (product_id, type) => {
     addCartToMemory();
    
 }
+
 const addCartToMemory = () => {
     localStorage.setItem('cart', JSON.stringify(cart));
 }
-
+export const  loaddata = ()=>{
+    // get data cart from memory
+    if(localStorage.getItem('cart')){
+       cart = JSON.parse(localStorage.getItem('cart'));
+       addCartToHTML();
+       //localStorage.removeItem('cart');
+       }
+}
+loaddata();

@@ -1,5 +1,5 @@
 //import {addCartToMemory,loaddata,cart,addToMyArray} from 'cart.js'
- import {burgers} from './stock.js';
+ import {burgers,allitems} from './stock.js';
 
 
 let listCartHTML  = document.querySelector('.listCart');
@@ -9,7 +9,8 @@ let getbtn=document.querySelector('.buy')
 let iconCartSpan = document.querySelector('.icon-cart span');
 
 let listCards =[];
-//let cart =[];
+let cart =[];
+
 
 function initApp(){
     burgers.forEach((value,key)=>{
@@ -72,8 +73,8 @@ const addCartToHTML = () => {
             totalQuantity = totalQuantity +  item.quantity;
             let newItem = document.createElement('div');   
             newItem.dataset.id = item.product_id;
-            let positionProduct = burgers.findIndex((value) => value.itemCode == item.product_id);
-            let info = burgers[positionProduct];
+            let positionProduct = allitems.findIndex((value) => value.itemCode == item.product_id);
+            let info = allitems[positionProduct];
             
             newItem.innerHTML = `
             <div class="card rounded-3  ">
@@ -97,7 +98,7 @@ const addCartToHTML = () => {
                 <div class="totalPrice">RS:${info.price * item.quantity}.00</div>
                 </div>
                 <div class="col-md-1 col-lg-1 col-xl-1 text-end">
-                  <a href="#!"><img class="fa-trash" src="Assets/Delete.png" alt="bin"></i></a>
+                  <a href="#!"><img class="fa-trash" src="../Assets/Delete.png" alt="bin"></i></a>
                 </div>
               </div>
             </div>
@@ -143,4 +144,16 @@ const changeQuantityCart = (product_id, type) => {
     addCartToMemory();
    
 }
+ const addCartToMemory = () => {
+    localStorage.setItem('cart', JSON.stringify(cart));
+}
 
+export const  loaddata = ()=>{
+    // get data cart from memory
+    if(localStorage.getItem('cart')){
+       cart = JSON.parse(localStorage.getItem('cart'));
+       addCartToHTML();
+       //localStorage.removeItem('cart');
+       }
+}
+loaddata();

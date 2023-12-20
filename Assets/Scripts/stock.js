@@ -1,18 +1,18 @@
 export let burgers = [
-  { itemCode: "B1001",  Image:"Assets/ClasicBuger.png", itemName: "Classic Burger (Large)", price: 750.00, discount: 0 },
-  { itemCode: "B1002",  Image:"Assets/ClasicBuger.png", itemName: "Classic Burger (Regular)", price: 1500.00, discount: 15 },
-  { itemCode: "B1003",  Image:"Assets/ClasicBuger.png", itemName: "Turkey Burger", price: 1600.00 , discount: 0},
-  { itemCode: "B1004",  Image:"Assets/ClasicBuger.png", itemName: "Chicken Burger (Large)", price: 1400.00 , discount: 0},
-  { itemCode: "B1005",  Image:"Assets/ClasicBuger.png", itemName: "Chicken Burger (Regular)", price: 800.00, discount: 20 },
-  { itemCode: "B1006",  Image:"Assets/ClasicBuger.png", itemName: "Cheese Burger (Large)", price: 1000.00, discount: 0 },
-  { itemCode: "B1007",  Image:"Assets/ClasicBuger.png", itemName: "Cheese Burger (Regular)", price: 600.00, discount: 0 },
-  { itemCode: "B1008",  Image:"Assets/ClasicBuger.png", itemName: "Bacon Burger", price: 650.00, discount: 15 , discount: 0},
-  { itemCode: "B1009",  Image:"Assets/ClasicBuger.png", itemName: "Shawarma Burger", price: 800.00, discount: 0 },
-  { itemCode: "B1010",  Image:"Assets/ClasicBuger.png", itemName: "Olive Burger", price: 1800.00, discount: 0 },
-  { itemCode: "B1012",  Image:"Assets/ClasicBuger.png", itemName: "Double-Cheese Burger", price: 1250.00, discount: 20 },
-  { itemCode: "B1013",  Image:"Assets/ClasicBuger.png", itemName: "Crispy Chicken Burger (Regular)", price: 1200.00 , discount: 0},
-  { itemCode: "B1014",  Image:"Assets/ClasicBuger.png", itemName: "Crispy Chicken Burger (Large)", price: 1600.00, discount: 10 },
-  { itemCode: "B1015",  Image:"Assets/ClasicBuger.png", itemName: "Paneer Burger", price: 900.00, discount: 0 }
+  { itemCode: "B1001",  Image:"../Assets/ClasicBuger.png", itemName: "Classic Burger (Large)", price: 750.00, discount: 0 },
+  { itemCode: "B1002",  Image:"../Assets/ClasicBuger.png", itemName: "Classic Burger (Regular)", price: 1500.00, discount: 15 },
+  { itemCode: "B1003",  Image:"../Assets/ClasicBuger.png", itemName: "Turkey Burger", price: 1600.00 , discount: 0},
+  { itemCode: "B1004",  Image:"../Assets/ClasicBuger.png", itemName: "Chicken Burger (Large)", price: 1400.00 , discount: 0},
+  { itemCode: "B1005",  Image:"../Assets/ClasicBuger.png", itemName: "Chicken Burger (Regular)", price: 800.00, discount: 20 },
+  { itemCode: "B1006",  Image:"../Assets/ClasicBuger.png", itemName: "Cheese Burger (Large)", price: 1000.00, discount: 0 },
+  { itemCode: "B1007",  Image:"../Assets/ClasicBuger.png", itemName: "Cheese Burger (Regular)", price: 600.00, discount: 0 },
+  { itemCode: "B1008",  Image:"../Assets/ClasicBuger.png", itemName: "Bacon Burger", price: 650.00, discount: 15 , discount: 0},
+  { itemCode: "B1009",  Image:"../Assets/ClasicBuger.png", itemName: "Shawarma Burger", price: 800.00, discount: 0 },
+  { itemCode: "B1010",  Image:"../Assets/ClasicBuger.png", itemName: "Olive Burger", price: 1800.00, discount: 0 },
+  { itemCode: "B1012",  Image:"../Assets/ClasicBuger.png", itemName: "Double-Cheese Burger", price: 1250.00, discount: 20 },
+  { itemCode: "B1013",  Image:"../Assets/ClasicBuger.png", itemName: "Crispy Chicken Burger (Regular)", price: 1200.00 , discount: 0},
+  { itemCode: "B1014",  Image:"../Assets/ClasicBuger.png", itemName: "Crispy Chicken Burger (Large)", price: 1600.00, discount: 10 },
+  { itemCode: "B1015",  Image:"../Assets/ClasicBuger.png", itemName: "Paneer Burger", price: 900.00, discount: 0 }
 ];
   
 
@@ -68,8 +68,10 @@ export  const fries = [
     { itemCode: "B1046",Image:"../Assets/Bevrages/Coca-Cola (330ml).jpeg", itemName: "Sprite (330ml)", price: 1500.00, discount: 3 },
     { itemCode: "B1047", Image:"../Assets/Bevrages/Coca-Cola (330ml).jpeg",itemName: "Mirinda (330ml)", price: 850.00, discount: 7 },
   ];
-  
-  
+export let allitems =[...beverages,...burgers,...chicken,...fries,...pasta,...submarines];
+
+
+
   
   
   

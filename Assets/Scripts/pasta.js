@@ -1,4 +1,4 @@
-import {pasta} from './stock.js';
+import {pasta,allitems} from './stock.js';
 
 let listCartHTML  = document.querySelector('.listCart');
 let list=document.querySelector('.items');
@@ -31,13 +31,7 @@ function initApp(){
 }
 initApp();
 
- const  loaddata = ()=>{
-     // get data cart from memory
-     if(localStorage.getItem('cart')){
-        cart = JSON.parse(localStorage.getItem('cart'));
-        addCartToHTML();
-    }
-}
+
 
 
 //-------------cart------------------------------------
@@ -76,8 +70,8 @@ const addCartToHTML = () => {
             totalQuantity = totalQuantity +  item.quantity;
             let newItem = document.createElement('div');   
             newItem.dataset.id = item.product_id;
-            let positionProduct = pasta.findIndex((value) => value.itemCode == item.product_id);
-            let info = pasta[positionProduct];
+            let positionProduct = allitems.findIndex((value) => value.itemCode == item.product_id);
+            let info = allitems[positionProduct];
             
             newItem.innerHTML = `
             <div class="card rounded-3  ">
@@ -151,3 +145,12 @@ const addCartToMemory = () => {
     localStorage.setItem('cart', JSON.stringify(cart));
 }
 
+export const  loaddata = ()=>{
+    // get data cart from memory
+    if(localStorage.getItem('cart')){
+       cart = JSON.parse(localStorage.getItem('cart'));
+       addCartToHTML();
+       
+       }
+}
+loaddata();

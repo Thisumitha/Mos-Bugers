@@ -7,6 +7,7 @@ let list=document.querySelector('.items');
 let quantity = document.querySelector('.quantity');
 let getbtn=document.querySelector('.buy')
 let iconCartSpan = document.querySelector('.icon-cart span');
+let total =document.querySelector('.total')
 
 let listCards =[];
 let cart =[];
@@ -46,6 +47,7 @@ list.addEventListener('click', (event) => {
 
         }
 })
+
 const addToCart = (product_id) => {
     let positionThisProductInCart = cart.findIndex((value) => value.product_id == product_id);
     if(cart.length <= 0){
@@ -65,9 +67,11 @@ const addToCart = (product_id) => {
      addCartToHTML();
      addCartToMemory();
 }
+
 const addCartToHTML = () => {
     listCartHTML.innerHTML = '';
     let totalQuantity = 0;
+    let billval =  0 ;
     if(cart.length > 0){
         cart.forEach(item => {
             totalQuantity = totalQuantity +  item.quantity;
@@ -75,6 +79,7 @@ const addCartToHTML = () => {
             newItem.dataset.id = item.product_id;
             let positionProduct = allitems.findIndex((value) => value.itemCode == item.product_id);
             let info = allitems[positionProduct];
+             billval = billval + (info.price * item.quantity);
             
             newItem.innerHTML = `
             <div class="card rounded-3  ">
@@ -109,6 +114,7 @@ const addCartToHTML = () => {
         
     }
     iconCartSpan.innerText = totalQuantity;
+    total.innerText=("RS :"+billval+".00");
 }
 listCartHTML.addEventListener('click', (event) => {
     let positionClick = event.target;
@@ -149,11 +155,11 @@ const changeQuantityCart = (product_id, type) => {
 }
 
 export const  loaddata = ()=>{
-    // get data cart from memory
+    
     if(localStorage.getItem('cart')){
        cart = JSON.parse(localStorage.getItem('cart'));
        addCartToHTML();
-       //localStorage.removeItem('cart');
+       
        }
 }
 loaddata();

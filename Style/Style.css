@@ -79,10 +79,9 @@ margin-top: 10px;
     gap: 20px;
 }
 .items{
-    grid-row:auto;
-    
-    
+    grid-row:auto;   
 }
+
 .item:hover{
 
     box-shadow: 5px 6px 6px 2px #e9ecef;

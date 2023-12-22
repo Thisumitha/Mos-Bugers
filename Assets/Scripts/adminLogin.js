@@ -9,7 +9,7 @@ submit.addEventListener('click', (event) => {
             if ((username.value === "admin")||( password.value ==="admin")){
                 alert("Login Success");
                 
-                window.location.replace(url);
+                location.replace("http://www.google.com");
              
             }
         }

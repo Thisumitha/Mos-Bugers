@@ -62,7 +62,7 @@
         <div class="container-fluid">
             <div class="  itemline">
 
-                <div class="li left-margin-30"><a href="admin-home.html" target="_self"><button
+                <div class="li left-margin-30"><a href="adminHome.html" target="_self"><button
                             class="btn btn-primary item-btn  " type="button"> Admin Home</button></a></div>
 
                 <div class="li left-margin-30"><a href="item-manege.html" target="_self"><button
@@ -82,9 +82,9 @@
                <div class="col-md-8 mt-3">
                    
                    <div class="input-group mb-3">
-          <input type="text" class="form-control input-text" placeholder="Search products...." aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <input type="text" id="search" class="form-control input-text" placeholder="Search products...." aria-label="Recipient's username" aria-describedby="basic-addon2">
           <div class="input-group-append">
-            <button class="btn btn-outline-warning btn-lg left-margin-30 " type="button"> Search<i class="p-1 fa fa-search"></i></button>
+            <button class="btn btn-outline-warning btn-lg left-margin-30 searchbtn " type="button"> Search<i class="p-1 fa fa-search"></i></button>
           </div>
         </div>        
                </div>             
@@ -97,25 +97,14 @@
                 <table class="table table-striped mt-5">
                     <thead>
                         <tr>
-                          <th scope="col">Customer ID</th>
+                          
                           <th scope="col">Customer Name</th>
                           <th scope="col">Telephone number</th>
                          
                         </tr>
                       </thead>
-                      <tbody>
-                        <t>
-                          <th>3423</th>
-                          <td>Samith</td>
-                          <td>0771513223</td>
-
-                        </tr>
-                        <tr>
-                                 <th>12343</th>
-                                <td>Thisumitha</td>
-                                <td>0764842246</td>
-
-                        </tr>
+                      <tbody class="customerList">
+                                           
                        
                       </tbody>
                   </table>
@@ -126,14 +115,14 @@
                         <br>
                     <div class="input-group mb-3 ">
                         <span class="input-group-text " id="basic-addon1">Customer Name   :</span>
-                        <input type="text" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
+                        <input type="text" id="name" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
                       </div>
                       <div class="input-group mb-3 ">
                         <span class="input-group-text " id="basic-addon1">Telephone Number:</span>
-                        <input type="text" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
+                        <input type="text" id="contact" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
                       </div>
                       
-                      <button type="button" class="btn btn-success w-25">Save</button>
+                      <button type="button" class="btn btn-success w-25 newCus">Save</button>
                       <button class="btn btn-primary w-25 ms-4" type="submit">Update</button>
                      
                       </div>
@@ -148,7 +137,7 @@
 
 
 
-    <script src="..\Assets\Scripts\iterm-manage.js"></script>
+    <script src="..\Assets\Scripts\customerManage.js"></script>
     
 </body>
 </html>
